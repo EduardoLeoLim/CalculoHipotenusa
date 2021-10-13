@@ -40,7 +40,7 @@
         android:layout_marginTop="51dp"
         android:layout_marginEnd="50dp"
         android:hint="Cateto opuesto"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="50dp"
         android:hint="Cateto adyacente"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -84,5 +84,19 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbl_Resultado" />
+
+    <Button
+        android:id="@+id/btn_Limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="50dp"
+        android:text="LIMPIAR"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_Calcular"
+        app:layout_constraintTop_toBottomOf="@+id/txt_CatetoAdyacente" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
