@@ -30,9 +30,10 @@ class MainActivity : AppCompatActivity() {
         val txt_catetoAdyacente : EditText = findViewById(R.id.txt_CatetoAdyacente)
         val catAdyacente = txt_catetoAdyacente.text.toString().toDouble()
 
-        var resultado : Double = Math.sqrt(Math.pow(catOpuesto, catOpuesto) + Math.pow(catAdyacente, catAdyacente))
+        var resultado : Double = Math.sqrt(Math.pow(catOpuesto, 2.0) + Math.pow(catAdyacente, 2.0))
+        print(resultado)
 
-        val lbl_Resultado : TextView = findViewById(R.id.lbl_Resultado)
+        var lbl_Resultado : TextView = findViewById(R.id.lbl_Resultado)
         lbl_Resultado.setText("Resultado: " + resultado);
     }
 
