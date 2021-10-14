@@ -42,6 +42,7 @@
         android:hint="Cateto opuesto"
         android:inputType="numberDecimal"
         android:text=""
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -56,8 +57,9 @@
         android:hint="Cateto adyacente"
         android:inputType="numberDecimal"
         android:text=""
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_CatetoOpuesto" />
 
@@ -68,7 +70,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="32dp"
         android:text="Resultado"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,12 +92,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="50dp"
         android:text="LIMPIAR"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toEndOf="@+id/btn_Calcular"
         app:layout_constraintTop_toBottomOf="@+id/txt_CatetoAdyacente" />
 
