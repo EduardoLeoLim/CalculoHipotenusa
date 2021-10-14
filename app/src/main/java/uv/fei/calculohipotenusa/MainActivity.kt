@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val catAdyacente = txt_catetoAdyacente.text.toString().toDouble()
         var resultado : Double = Math.sqrt(Math.pow(catOpuesto, 2.0) + Math.pow(catAdyacente, 2.0))
         var lbl_Resultado : TextView = findViewById(R.id.lbl_Resultado)
-        lbl_Resultado.setText("Resultado: " + resultado);
+        lbl_Resultado.setText("Resultado: " + String.format("%.5f", resultado));
     }
 
     /**
