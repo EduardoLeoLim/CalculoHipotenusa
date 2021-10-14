@@ -69,6 +69,9 @@ class MainActivity : AppCompatActivity() {
 
         val txt_catetoAdyacente : EditText = findViewById(R.id.txt_CatetoAdyacente)
         txt_catetoAdyacente.setText("")
+
+        val lbl_Resultado : TextView = findViewById(R.id.lbl_Resultado)
+        lbl_Resultado.setText("Resultado:")
     }
 
 }
